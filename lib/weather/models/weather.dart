@@ -9,7 +9,7 @@ part 'weather.g.dart';
 enum TemperatureUnits { fahrenheit, celsius }
 
 extension TemperatureUnitsX on TemperatureUnits {
-  bool get isFarenheit => this == TemperatureUnits.fahrenheit;
+  bool get isFahrenheit => this == TemperatureUnits.fahrenheit;
   bool get isCelsius => this == TemperatureUnits.celsius;
 }
 
