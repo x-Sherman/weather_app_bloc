@@ -12,8 +12,9 @@ class WeatherRequestFailure implements Exception {}
 
 class WeatherNotFoundFailure implements Exception {}
 
-class MetaWeatherApiClinet {
-  MetaWeatherApiClinet({http.Client? httpClient})
+class MetaWeatherApiClient {
+  MetaWeatherApiClient
+({http.Client? httpClient})
       : _httpClient = httpClient ?? http.Client();
 
   static const _baseUrl = 'www.metaweather.com';
