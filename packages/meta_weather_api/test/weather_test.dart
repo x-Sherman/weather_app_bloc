@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:meta_weather_api/meta_weather_api.dart';
 import 'package:test/test.dart';
 
